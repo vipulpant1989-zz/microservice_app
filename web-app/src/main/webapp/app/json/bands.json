@@ -1,0 +1,266 @@
+[{
+	"id":1,
+	"name":"Faridkot",
+	"active":true,
+	"origin":"Punjab",
+	"genre":"Pop",
+	"contact":"+91-98-18-779411",
+	"webpage":"http://www.faridkotmusic.com",
+	"soundcloud": "faridkotmusic",
+	"facebook": "https://www.facebook.com/faridkotmusic",
+	"twitter": "https://www.twitter.com/faridkotmusic",
+	"youtube": {
+		"video":"http://www.youtube.com/embed/nhdcL98giHo?autoplay=0",
+		"title":"Laila - Faridkot (Official Video)",
+		"description":"This is our first ever Official Video for our most loved song Laila from the album 'Ek'."
+	},
+	"description":"Formed in 2008 when IP and Raj came together to create some excitingly original music, it is safe to say that six years and 2 albums later, namely, Ek on Times Music(2011) and Phir Se? on Universal Music(2014), Faridkot has succeeded in carving a niche for itself, while enchanting fans across the nation. Having performed in over 300 shows alongside acclaimed artists such as Vishal and Shekhar, Kailash Kher, Mohit Chauhan, KK, Shaan, Aditi Singh Sharma etc. they have swayed audiences irrespective of their geographical affiliations. They recently crossed the borders into Kabul, Afganisthan where they made audiences groove at the 'Vote for Peace' concert. An ardent advocate of synthesising fresh medleys and having fun while seemingly at ‘work’ has cemented their legacy as the harbingers of hindi-pop, within the nation.",
+	"fees":[{
+		"club" :"1.2 lakh",
+		"corporates":"2 lakh",
+		"college":"2 lakh",
+		"wedding":"2.5 lakh",
+		"private":"2.5 lakh"
+	}],
+	"lableImage":"/img/faridkot/label.jpg",
+	"profileImage":"/img/faridkot/profileImage.jpg",
+	"images":[{
+		"url":"/img/faridkot/"
+	},{
+		"url":"/img/faridkot/"
+	}]
+},{
+	"id":2,
+	"name":"Swastik",
+	"active":true,
+	"origin":"Chandigarh",
+	"genre":"Hindustani sufi folk Rock",
+	"contact":"+91-81-46-002299",
+	"webpage":"http://www.reverbnation.com/swastiktheband",
+	"facebook": "https://www.facebook.com/swastiktheband/?ref=br_rs",
+	"youtube": {
+		"video":"http://www.youtube.com/embed/OD7d1e1mwyQ?autoplay=0",
+		"title":"Jogi  - Swastik( Official Music Video )",
+		"description":""
+	},
+	"description":"For more than 7 years, Swastik The band have delivered the very finest Hindi Rock music has to offer – tightly crafted songs, floor-shaking rhythms, and unmistakable harmonies. The new “Daroo” showcases their preeminent Hindi Rock mastery with a collection of indelible tracks that surely rank among their best hits. The band was formed in later days of year 2007 by the present lead guitarist of the band Rohit Joshi, Rohit Adds “Our goal is always to push ourselves as much as possible The band was formed with the vision of promoting hindi rock scene on the national circuit. 'Daroo' was a huge sensation and was a hit in college going students.The song spreaded the name of swastik in 100s of colleges in India.Since then Swastik is producing magical numbers which has resulted in there present huge fan following.There most songs are related to youth which enables young college students to relate to the songs more which further adds on to popularity of the songs.Check out our music at <a href='http://www.reverbnation.com/swastiktheband' target='_blank'>www.reverbnation.com/swastiktheband</a>",
+	"fees":[{
+		"club" :"1.2 lakh",
+		"corporates":"2 lakh",
+		"college":"2 lakh",
+		"wedding":"2.5 lakh",
+		"private":"2.5 lakh"
+	}],
+	"lableImage":"/img/swastik/label.jpg",
+	"profileImage":"/img/swastik/profileimage.jpg",
+	"images":[{
+		"url":"/img/Guruz/"
+	},{
+		"url":"/img/Guruz/"
+	}]
+},{
+	"id":4,
+	"name":"Leaftone",
+	"active":true,
+	"origin":"Delhi",
+	"genre":"Indie Rock",
+	"contact":"09830126604",
+	"webpage":"http://artistecard.com/folkfoundation",
+	"facebook": "https://www.facebook.com/www.folkfoundation.in?ref=stream",
+	"youtube": {
+		"video":"http://www.youtube.com/embed/IKCXnU7nA9E?autoplay=0",
+		"title":"Leaftone - Behind the Scenes of Who's your Daddy?",
+		"description":""
+	},
+	"description":"Serendipitously stumbling upon captivating musical concoctions, perfectly captures the working ethos of these three bumbling artistes’ come fast friends. An ability to appreciate each others diverse lyrical tastes, helps them to devour any differences, whilst traversing on a musical journey, replete with unmitigated frolic. Translating their ability to work long into mellifluous nights, on the stage, they are able to cover different artitsts like Jet, James Brown, and A R Rahman in the same gig. A feat worth waxing lyrical bout. They have shared the stage with acclaimed artists like Susmit Sen Chronicles, Agnee, Parikrama and Baiju Dharamajan. An ensemble cast comprising of Jasjit, the lead guitarist specializing in Blues providing the most heart-throbbing topping of solos and riffs to their songs, Siddharth, the drummer boy who loves to play funk while sharing the vocalists love for odd time signatures, and Bhavya, the frontman who acts as the vocalist and rhythm guy, heps create a wonder musical mosaic.",
+	"fees":[{
+		"club" :"60000 lakh",
+		"corporates":"60000 lakh",
+		"college":"60000 lakh",
+		"wedding":"60000 lakh",
+		"private":"60000 lakh"
+	}],
+	"lableImage":"/img/leaftone/label.jpg",
+	"profileImage":"/img/leaftone/profileImage.png",
+	"images":[{
+		"url":"/img/leaftone/"
+	},{
+		"url":"/img/leaftone/"
+	}]
+
+},{
+	"id":5,
+	"name":"Susmit Sen Chronicles",
+	"active":true,
+	"origin":"Delhi",
+	"genre":"Folk",
+	"contact":"",
+	"webpage":"",
+	"facebook": "",
+	"youtube": {
+		"video":"http://www.youtube.com/embed/Yso7x88UUPk?autoplay=0",
+		"title":"Neptune's Dance - Sushmit Sen Chronicles",
+		"description":"Susmit Sen Chronicles presents Neptune's dance video. This video was much awaited by Susmit Sen's fans."
+	},
+	"description":"Susmit Sen  has had an illustrious career spanning more than 20 years… and will go down in history as the Musician who has never played a cover version in his life! His innovative avant garde style of guitar playing has influences of Western Jazz & Rock and Hindustani classical.. yet the sound is uniquely his own. With his second solo album Ocean to Ocean he truly gets into the vast, unfathomed depths of a sound that’s at once  earthy with rustic rhythms as its gypsy-like in its savoring of melodies and patterns from across the world. Yet the nomadic soul is always at peace.. What one feels in the compositions of Indian Ocean as well as Depths of the Ocean now seems to attain a new level of realisation with this album. With some amazing collaborations with artists from across the globe – like Bernie Marsden (White Snake) and the Hungarian Piano-accordionist ZoltánOrosz.",
+	"fees":[{
+		"club" :"60000 lakh",
+		"corporates":"60000 lakh",
+		"college":"60000 lakh",
+		"wedding":"60000 lakh",
+		"private":"60000 lakh"
+	}],
+	"lableImage":"/img/sushmitsen/logo.png",
+	"profileImage":"/img/sushmitsen/profileImage.jpg",
+	"images":[{
+		"url":"/img/sushmitsen/"
+	},{
+		"url":"/img/sushmitsen/"
+	}]
+},{
+	"id":6,
+	"name":"Azeem Ahmed Alvi",
+	"active":true,
+	"genre":"Indian Classical",
+	"origin":"Delhi",
+	"contact":"",
+	"webpage":"",
+	"facebook": "https://www.facebook.com/azeemsitar",
+	"youtube": {
+		"video":"http://www.youtube.com/embed/Usk9IZqWm_Q?autoplay=0",
+		"title":"Toghether - Kundalini Project & Azeem Ahmed Alvi (Live Sala Filarmonica di Rovereto - Italy)",
+		"description":""
+	},
+	"description":"A sixth generation Classical Indian musician, Azeem Ahmed Alvi perfected the art of playing the sitar under the esteemed tutelage of Ustad Mohsin Ali  Khan. A concerted collaboration with two well known geniuses – Ustad Shahid Parvez Khan and Ustad Sayyed Ahmed Alvi, further augemented his repertoire, rendering him a true sitar maestro.He has played alongside renowned contemeporary artists like Karsh Kale and Adnan Sami. Unconventional  unions , like the one with harri Stojka at the Jazz Festival in Vienna, Stuttgart & Germany, have added to his allure. ",
+	"fees":[{
+		"club" :"60000 lakh",
+		"corporates":"60000 lakh",
+		"college":"60000 lakh",
+		"wedding":"60000 lakh",
+		"private":"60000 lakh"
+	}],
+	"lableImage":"/img/Azeem/label1.jpg",
+	"profileImage":"/img/Azeem/profileImage.jpg",
+	"images":[{
+		"url":"/img/Azeem/"
+	},{
+		"url":"/img/Azeem/"
+	}]
+},{
+	"id":7,
+	"name":"Jasleen Aulakh",
+	"active":true,
+	"genre":"sans",
+	"origin":"Chandigarh",
+	"contact":"",
+	"webpage":"www.jasleenaulakh.com",
+	"facebook": "https://www.facebook.com/aulakhjasleen",
+	"youtube": {
+		"video":"http://www.youtube.com/embed/_FQtMFiC_fg?autoplay=0",
+		"title":"Jasleen Aulakh",
+		"description":"We've all heard her sing and her soulful songs make us delve deeper within. Here's one of her popular songs, another story in our very own style."
+	},
+	"description":"An individual artist based in Chandigarh, Jasleen Aulakh helms the tnmusic project ‘Just Ittefaq’. With her mother Polly Saghera acting as the consummate lyricist, ‘Just Ittefaq’ is an inspirational conduit, channelizing the combined prowess of the dynamic mother-daughter duo, forging soulful music, sans the sermonising.No wonder then that a successful Bollywood debut beconed, with their song ‘Chamba’ earning plaudits aplenty. ",
+	"fees":[{
+		"club" :"60000 lakh",
+		"corporates":"60000 lakh",
+		"college":"60000 lakh",
+		"wedding":"60000 lakh",
+		"private":"60000 lakh"
+	}],
+	"lableImage":"/img/jasleen/label.jpg",
+	"profileImage":"/img/jasleen/profileImage.jpg",
+	"images":[{
+		"url":"/img/jasleen/"
+	},{
+		"url":"/img/jasleen/"
+	}]
+},{
+	"id":8,
+	"name":"MAP - My Alternative Pop",
+	"active":true,
+	"genre":"Pop/Alternative Pop",
+	"origin":"Delhi",
+	"contact":"",
+	"soundcloud":"maponline",
+	"webpage":"https://www.mapmusic.in",
+	"facebook": "https://www.facebook.com/MAPmusiconline",
+	"youtube": {
+		"video":"http://www.youtube.com/embed/usdYtErjus8?autoplay=0",
+		"title":"Figure It Out",
+		"description":"Shot & Directed by: Subcritical Productions </br> Buy song @ <a target='_blank' href = 'https://www.oklisten.com/map'>Click Here</a>"
+	},
+	"description":"MAP (My Alternative Pop) is a joyride through a seamless confluence of floating melodies and inspired lyricism. It POPs with the rock, the roll, the blues and the soul…and everything in between.The band came together in 2011, when singer-songwriter Manta Sidhu set out to look for musicians to bring to life the songs she had been writing. Featuring Jishnu Banerjee on guitar, Shivam Khare on keys, Rahul Rai on bass and Reuben Narain on drums – MAP’s journey over the last 4 years has been spirited, spontaneous and rewarding. The band released its debut album 'Rear View' with major record label Times Music in July 2013. Presently, the 5 member line-up is busy recording and releasing a bunch of audio and video singles. Exuberant yet minimalistic, subtle yet significant – here, music plays the storyteller. ",
+	"fees":[{
+		"club" :"40000K",
+		"corporates":"1 lakh",
+		"college":"40000K",
+		"wedding":"40000K",
+		"private":"1 lakh"
+	}],
+	"lableImage":"/img/map/label.jpg",
+	"profileImage":"/img/map/profileImage.jpg",
+	"images":[{
+		"url":"/img/jasleen/"
+	},{
+		"url":"/img/jasleen/"
+	}]
+},{
+	"id":3,
+	"name":"Folk Foundation",
+	"origin":"Kolkata",
+	"active":true,
+	"genre":"Folk",
+	"contact":"09830126604",
+	"webpage":"http://artistecard.com/folkfoundation",
+	"facebook": "https://www.facebook.com/www.folkfoundation.in?ref=stream",
+	"youtube": {
+		"video":"http://www.youtube.com/embed/HVB8oAb3_As?autoplay=0",
+		"title":"LUMA JHUMA - Folk Foundation(Official Video)",
+		"description":"Song: Luma Jhuma </br>Band: Folk Foundation </br>Lead Vocal: Dipanwita </br>Genre: Rajasthani Folk"
+	},
+	"description":"Folk Foundation is made up of a seemingly quaint quintet from Kolkata (India). Yet, underneath their quiet veneer lies a sonorous ability to showcase a platter of different regional folk songs from India within an urban palette. The rich melodious folk culture of the South Asian Diaspora when infused with subtle essence of urban western arrangements, help their compositions to connect with the voice within. Their first official release “Folk Foundation Vol I” has already received critical accolade and helped enhance their global stature.",
+	"fees":[{
+		"club" :"60000 lakh",
+		"corporates":"60000 lakh",
+		"college":"60000 lakh",
+		"wedding":"60000 lakh",
+		"private":"60000 lakh"
+	}],
+	"lableImage":"/img/folkfoundation/label.jpg",
+	"profileImage":"/img/folkfoundation/profileImage.jpg",
+	"images":[{
+		"url":"/img/folkfoundation/"
+	},{
+		"url":"/img/folkfoundation/"
+	}]
+},{
+	"id":9,
+	"name":"Gurraj Singh",
+	"origin":"Punjab",
+	"active":true,
+	"genre":"Punjabi",
+	"contact":"09830126604",
+	"webpage":"",
+	"facebook": "https://www.facebook.com/onlygurrajsingh",
+	"youtube": {
+		"video":"http://www.youtube.com/embed/HaNKM3rx9_E?autoplay=0",
+		"title":"PATT LAYE",
+		"description":""
+	},
+	"description":"Donning multiple hats as as a singer, songwriter and composer , make Gurraj Singh the quintessential power- packed performer. Having started his training under Lt Prabhjot Bali who helped him engender an ingenuity for composing lyrical songs, he continued to add metaphorical bows to his musical quiver by learning Raagas and undertaking classical music modules from Sh. Vinod Sood.A stellar debut in 2014, has seen his popularity sore, culminating in enthralling performances at various festivals and private events across Panjab, Chandigarh, Haryana and New Delhi.",
+	"fees":[{
+		"club" :"60000 lakh",
+		"corporates":"60000 lakh",
+		"college":"60000 lakh",
+		"wedding":"60000 lakh",
+		"private":"60000 lakh"
+	}],
+	"lableImage":"/img/Gurraj/blog.png",
+	"profileImage":"/img/Gurraj/profileImage.jpg",
+	"images":[{
+		"url":"/img/folkfoundation/"
+	},{
+		"url":"/img/folkfoundation/"
+	}]
+}]

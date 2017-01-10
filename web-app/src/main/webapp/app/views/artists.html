@@ -1,0 +1,77 @@
+<!-- /header --><!-- page header -->
+<section id="page-header" class="team">
+	<div class="container clearfix">
+		<hgroup>
+			<h1 class="page-title">Artists</h1>
+			<h2 class="page-subtitle">Meet our artists.</h2>
+		</hgroup>
+		<!-- share it -->
+		<div id="share-wrap">
+			<div id="share" data-url="artists.html" data-text="Artists" data-title="share"></div>
+		</div>
+		<!-- /share it -->
+		<hr>
+		<!-- description -->
+		<div class="col-1-2 header-content">
+			<h2>A few words about us.</h2>
+			<p>Big Band Theory believes in promoting new talent and making great content available for the listeners. We want to let the artists concentrate on their skills thereby simplifying the processes of booking and visibility for them.</p>
+			<ul class="stats" data-timer="10000">
+				<li>
+					<span class="stat-value">7</span> 
+					<span class="stat-name">artists</span>
+				</li>
+				<li>
+					<span class="stat-value">1000</span> 
+					<span class="stat-name">happy peoples</span>
+				</li>
+				<!--<li>
+					<span class="stat-value">66</span> 
+					<span class="stat-name">releases</span>
+				</li>-->
+				<li>
+					<span class="stat-value">3356</span>
+					<span class="stat-name">coffees per year</span>
+				</li>
+				<li>
+					<span class="stat-value">1076</span>
+					<span class="stat-name">red buls per year</span>
+				</li>
+				<li>
+					<span class="stat-value">2013</span>
+					<span class="stat-name">year of creation</span>
+				</li>
+				<li>
+					<span class="stat-value">30</span>
+					<span class="stat-name">tracks</span>
+				</li>
+				
+			</ul>
+		</div>
+		<!-- /description -->
+	</div>
+</section>
+<!-- /page header -->
+<section id="main-content" class="container clearfix">
+	<!-- artists -->
+	<section id = "headArtist" class="items artists">
+		<!-- item -->
+		<article class="col-1-3 clearfix" ng-if="band.active === true" ng-repeat="band in bands">
+			<a ng-click = "goToArtist(band.name)"  class="thumb-icon aligncenter">
+				<img ng-src="{{band.lableImage}}" alt="" title="" />
+				<span class="icon view"></span>
+			</a>
+			<footer>
+				<h3><a>{{band.name}}</a></h3>
+				<p>{{band.description | DelimiterFilter : '200'}}</p>
+				<div class="cat"><a href="#">{{band.genre}}</a><a href="#">{{band.artist}}</a></div>
+			</footer>
+		</article>
+		<!-- /item -->
+	</section>
+	<div class="clear"></div>
+	<!-- /artists -->
+	<script type="text/javascript">
+		initStats();
+	</script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!-- /header -->
+<!-- page header -->
+<section id="page-header">
+	<div class="container clearfix">
+		<hgroup>
+			<h1 class="page-title">{{band.name}}</h1>
+			<h2 class="page-subtitle" ></h2>
+		</hgroup>
+		<!-- share it -->
+		<div id="share-wrap">
+		</div>
+		<!-- /share it -->
+		<hr>
+		<!-- masonry boxes -->
+		<div class="masonry-wrap clearfix">
+			<div class="masonry width-1-2 height-1-2">
+				<img ng-src="{{band.profileImage}}" alt="" width="468px" height="468px" />
+			</div>
+			<div class="masonry width-1-2 height-1-2 text-box">
+				<div class="text-box">
+					<div class="inner" >
+						<hgroup>
+							<!--<h2>Hi there.</h2>-->
+							<h3>{{(band.description | DelimiterFilter : '400')}}</h3>
+						</hgroup>
+						<div class="col-1-3">
+						<a class="btn small play-track" ng-click = "gotoAnchor('mytracklist')" data-playlist="mytracklist" data-track="1">Play my tracks</a>
+						<a class="btn small play-track" ng-click = "gotoAnchor('bookartist')">Book Artist</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- /masonry boxes -->
+	</div>
+</section>
+<!-- /page header -->
+<section id="main-content" class="container clearfix">
+	<!-- left -->
+	<article class="col-1-3">
+		<h2 class="heading-icon bio">Bio<br/><span class="color " id="name"></span></h2>
+		<ul class="details none">
+			<li>
+				<span>Origin</span>
+				<div>{{band.origin}}</div>
+			</li>
+			<li>
+				<span>Genres</span>
+				<div>{{band.genre}}</div>
+			</li>
+			<li>
+				<span>Links</span>
+				<div>
+				<a ng-if="band.twitter !== undefined" target="_blank" href="{{band.twitter}}">Twitter</a>
+				<a ng-if="band.facebook !== undefined" target="_blank" href="{{band.facebook}}">Facebook</a></div>
+			</li>
+		</ul>
+	</article>
+	<!-- /left -->
+	<!-- right -->
+	<article class="col-2-3 last">
+		<h3>About the Band.</h3>
+		<p ng-bind-html="band.description | unsafe "></p>
+		<h3>Tracklist.</h3>
+		
+		    <music-player ng-if="band.soundcloud === undefined" audios="audios.audio"></music-player>
+			
+			<soundcloud ng-if="band.soundcloud !== undefined" code="band.soundcloud"></soundcloud>
+		</ol>
+	</article>
+	<!-- /right -->
+	<!-- boxes -->
+	<section class="boxes">
+		<!-- box -->
+		<div class="box col-1-3">
+			<h2 class="heading-icon video">{{band.youtube.title}}</h2>
+			<p ng-bind-html="band.youtube.description | unsafe "></p>
+		</div>
+		<!-- /box -->
+		<!-- box -->
+		<div class="box col-2-3 last">
+			<!-- video -->
+			<div class="video">
+				<youtube src="band.youtube.video"></youtube>
+			</div>
+			<!-- /video -->
+		</div>
+		<!-- /box -->
+	</section>
+	
+	<section>	
+		<div class="box col-1-3" id="bookartist">
+			<h2 class="heading-icon contact">Book This Artist</h2>
+			<p><img src="img/bbt_logo.png" width="200px" height="130px" alt="logo"/></p>
+		</div>
+		<article class="col-2-3 last" >
+			<ng-include src="'book-artist.html'"></ng-include>
+		</article>
+	</section>
+
+	<!-- /boxes -->
+	<!-- boxes -->
+	<!--<section class="boxes">
+		<!-- box -->
+	<!--	<div class="box col-1-3">
+			<h2 class="heading-icon podcast no-margin">Check my new <br/><span class="color">podcasts.</span></h2>
+		</div>
+		<!-- /box -->
+		<!-- box -->
+	<!--	<div class="box col-1-3">
+			<a href="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F37028581&amp;auto_play=false&amp;show_artwork=true&amp;color=fa4c29" class="thumb-icon mediabox tip" data-width="auto" data-height="200" data-tip-title="#United Breaks (48 min)" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
+				<img src="placeholders/02-box-image-420x200.jpg" alt="" title="This is an example of a caption" />
+				<span class="icon soundcloud"></span>
+			</a>
+		</div>
+		<!-- /box -->
+		<!-- box -->
+	<!--	<div class="box col-1-3 last">
+			<a href="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F37028581&amp;auto_play=false&amp;show_artwork=true&amp;color=fa4c29" class="thumb-icon mediabox tip" data-width="auto" data-height="200" data-tip-title="#United Breaks (48 min)" data-tip-desc="Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc consectetur eros eget lacus fringilla in feugiat odio viverra.">
+				<img src="placeholders/01-box-image-420x200.jpg" alt="" title="This is an example of a caption" />
+				<span class="icon soundcloud"></span>
+			</a>
+		</div>
+		<!-- /box -->
+	<!--</section>
+	<!-- /boxes -->
+</section>
+<script>
+	
+	
+</script>
+<!-- /footer -->
+</body>
+</html>

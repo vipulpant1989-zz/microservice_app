@@ -1,0 +1,72 @@
+[{
+	"id":1,
+	"userName":"SusmitSen",
+	"name" :"Susmit Sen - IceBerg Project",
+	"date" :"2015-11-01",
+	"genre":"Instrumental",
+	"description":"When we hear a song/composition, what we get to witness is just the tip of the iceberg. What goes on to create the final product is much larger a process that the listeners never get to know. Taking that into consideration, this project takes you a bit closer to real efforts and multiple tasks undertaken in giving shape to a song.The very notion was to bring the whole process of creating a song to the knowledge of the listeners in a very interesting audio visual series that would benefit both the normal listeners as well as budding musicians. TBBT is elated to have worked with Susmit Sen Chronicles. A series of episodes highlights the various stages that an idea evolves through before finally developing into a Song. Each episode reflects different elements and aspects attached in building an original composition, from its inception to its culmination.Feel the music!",
+	"backgroundImages":[{
+		"url":"img/iceburgproject/IcebergPoster.jpg"
+	}],
+	"artist":"Susmit Sen",
+	"label":"/img/iceburgproject/IcebergPoster.jpg",
+	"band":{
+		"id":1,
+		"name":"Susmit Sen"
+	},
+	"video":{
+		"url":"http://www.youtube.com/embed/M1OSZf2MIg8?autoplay=0"
+	},
+	"audio":[{
+			"id":1,
+			"name":"Episode 1",
+			"url":"/audio/iceburgproject/Episode_01.mp3"
+		},{
+			"id":2,
+			"name":"Episode 2",
+			"url":"/audio/iceburgproject/Episode_02.mp3"
+		},{
+			"id":3,
+			"name":"Episode 3",
+			"url":"/audio/iceburgproject/Episode_03.mp3"
+		},{
+			"id":4,
+			"name":"Episode 4",
+			"url":"/audio/iceburgproject/Episode_04.mp3"
+		},{
+			"id":5,
+			"name":"Episode 5",
+			"url":"/audio/iceburgproject/Episode_05.mp3"
+		},{
+			"id":6,
+			"name":"Episode 6",
+			"url":"/audio/iceburgproject/Episode_06.mp3"
+		},{
+			"id":7,
+			"name":"Episode 7",
+			"url":"/audio/iceburgproject/Episode_07.mp3"
+		}
+	]
+},{
+	"id":2,
+	"userName":"milap",
+	"name" :"Milap - Big Band Theory",
+	"date" :"2015-11-01",
+	"genre":"Fusion",
+	"description":"Milap is Big Band Theory's first collaboration. A fusion of Indian Classical Tarana and dubstep. BBT deliberately chose to go beyond lyrical barriers and  present something out of ordinary.<br/>Vocals- Mansimran Singh <br/>Piano & Percussions- Harshit Sharma <br/>Guitar- Ashish Bharti <br/>Violin- Jaspreet Singh",
+	"backgroundImages":[{
+		"url":"/img/tbbt/milap.jpg"
+	}],
+	"artist":"Multiple Artist",
+	"label":"/img/tbbt/milap.jpg",
+	"band":{
+		"id":1,
+		"name":"Multiple Artist"
+	},
+	"audio":[{
+			"id":1,
+			"name":"Milap - Big Band Thoery.",
+			"url":"/audio/tbbt/milap.mp3"
+	}]
+}]
+

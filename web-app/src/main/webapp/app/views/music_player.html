@@ -1,0 +1,27 @@
+<section id="full-player-wrap">
+	<div class="container">
+		<!-- player -->
+		<div id="full-player">
+			<ul id="tracklist">
+				<li ng-repeat="audio in tracklist track by audio.name"><div class="track" data-url="{{audio.url}}" data-show-ui="true">{{audio.name}}</div></li>
+			</ul>
+		</div>
+		<!-- /player -->
+		<!-- player navigation -->
+		<div id="fp-nav">
+			<a href="#" class="prev"></a>
+			<a href="#" class="play"></a>
+			<a href="#" class="next"></a>
+			<!--<a href="#" class="details"></a>-->
+		</div>
+		<!-- /player navigation -->
+		<div id="tracklist-nav"></div>
+	</div>
+	<script type="text/javascript">
+		setTimeout(function(){
+			init_player();
+			//share();
+		},1000);
+		
+	</script>
+</section>

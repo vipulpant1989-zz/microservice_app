@@ -1,0 +1,57 @@
+[{
+	"id":1,
+	"userName":"azeem",
+	"name" :"Azeem Ahmed Alvi",
+	"date" :"2015-11-01",
+	"genre":"Hindustani#Classical#Folk#Hindi#English",
+	"description":"A sixth generation Classical Indian musician, Azeem Ahmed Alvi perfected the art of playing the sitar under the esteemed tutelage of Ustad Mohsin Ali  Khan. A concerted collaboration with two well known geniuses – Ustad Shahid Parvez Khan and Ustad Sayyed Ahmed Alvi, further augemented his repertoire, rendering him a true sitar maestro.He has played alongside renowned contemeporary artists like Karsh Kale and Adnan Sami. Unconventional  unions , like the one with harri Stojka at the Jazz Festival in Vienna, Stuttgart & Germany, have added to his allure.",
+	"image":"img/Azeem/blog.png"
+},{
+	"id":2,
+	"userName":"Gurraj",
+	"name":"Gurraj Singh",
+	"date":"2015-11-01",
+	"genre":"Panjabi Folk",
+	"description":"Donning multiple hats as as a singer, songwriter and composer , make Gurraj Singh the quintessential power- packed performer. Having started his training under Lt Prabhjot Bali who helped him engender an ingenuity for composing lyrical songs, he continued to add metaphorical bows to his musical quiver by learning Raagas and undertaking classical music modules from Sh. Vinod Sood.A stellar debut in 2014, has seen his popularity sore, culminating in enthralling performances at various festivals and private events across Panjab, Chandigarh, Haryana and New Delhi.",
+	"image":"img/Gurraj/blog.png"
+},{
+	"id":3,
+	"userName":"jasleen",
+	"name":"Jasleen Aulakh",
+	"date":"2015-11-01",
+	"genre":"Sans",
+	"description":"An individual artist based in Chandigarh, Jasleen Aulakh helms the tnmusic project ‘Just Ittefaq’. With her mother Polly Saghera acting as the consummate lyricist, ‘Just Ittefaq’ is an inspirational conduit, channelizing the combined prowess of the dynamic mother-daughter duo, forging soulful music, sans the sermonising.No wonder then that a successful Bollywood debut beconed, with their song ‘Chamba’ earning plaudits aplenty.",
+	"image":"img/jasleen/blog.png"
+},{
+	"id":4,
+	"userName":"FolkFoundation",
+	"name":"Folk Foundation",
+	"date":"2015-11-01",
+	"genre":"Folk",
+	"description":"Folk Foundation is made up of a seemingly quaint quintet from Kolkata (India). Yet, underneath their quiet veneer lies a sonorous ability to showcase a platter of different regional folk songs from India within an urban palette. The rich melodious folk culture of the South Asian Diaspora when infused with subtle essence of urban western arrangements, help their compositions to connect with the voice within. Their first official release “Folk Foundation Vol I” has already received critical accolade and helped enhance their global stature.",
+	"image":"img/folkfoundation/blog.png"
+},{
+	"id":5,
+	"userName":"Leaftone",
+	"name":"Leaftone",
+	"date":"2015-11-01",
+	"genre":"Garage Rock",
+	"description":"Serendipitously stumbling upon captivating musical concoctions, perfectly captures the working ethos of these three bumbling artistes’ come fast friends. An ability to appreciate each others diverse lyrical tastes, helps them to devour any differences, whilst traversing on a musical journey, replete with unmitigated frolic. Translating their ability to work long into mellifluous nights, on the stage, they are able to cover different artitsts like Jet, James Brown, and A R Rahman in the same gig. A feat worth waxing lyrical bout. They have shared the stage with acclaimed artists like Susmit Sen Chronicles, Agnee, Parikrama and Baiju Dharamajan. An ensemble cast comprising of Jasjit, the lead guitarist specializing in Blues providing the most heart-throbbing topping of solos and riffs to their songs, Siddharth, the drummer boy who loves to play funk while sharing the vocalists love for odd time signatures, and Bhavya, the frontman who acts as the vocalist and rhythm guy, heps create a wonder musical mosaic.",
+	"image":"img/leaftone/blog.png"
+},{
+	"id":6,
+	"userName":"Map",
+	"name":"MAP (My Alternative Pop)",
+	"date":"2015-11-01",
+	"genre":"Pop/Alternative Pop",
+	"description":"MAP (My Alternative Pop) is a joyride through a seamless confluence of floating melodies and inspired lyricism. It POPs with the rock, the roll, the blues and the soul…and everything in between.The band came together in 2011, when singer-songwriter Manta Sidhu set out to look for musicians to bring to life the songs she had been writing. Featuring Jishnu Banerjee on guitar, Shivam Khare on keys, Rahul Rai on bass and Reuben Narain on drums – MAP’s journey over the last 4 years has been spirited, spontaneous and rewarding. The band released its debut album 'Rear View' with major record label Times Music in July 2013. Presently, the 5 member line-up is busy recording and releasing a bunch of audio and video singles. Exuberant yet minimalistic, subtle yet significant – here, music plays the storyteller.", 
+	"image":"img/map/blog.png"
+},{
+	"id":7,
+	"userName":"Faridkot",
+	"name":"Faridkot",
+	"date":"2015-11-01",
+	"genre":"Pop",
+	"description":"Formed in 2008 when IP and Raj came together to create some excitingly original music, it is safe to say that six years and 2 albums later, namely, Ek on Times Music(2011) and Phir Se? on Universal Music(2014), Faridkot has succeeded in carving a niche for itself, while enchanting fans across the nation. Having performed in over 300 shows alongside acclaimed artists such as Vishal and Shekhar, Kailash Kher, Mohit Chauhan, KK, Shaan, Aditi Singh Sharma etc. they have swayed audiences irrespective of their geographical affiliations. They recently crossed the borders into Kabul, Afganisthan where they made audiences groove at the 'Vote for Peace' concert. An ardent advocate of synthesising fresh medleys and having fun while seemingly at ‘work’ has cemented their legacy as the harbingers of hindi-pop, within the nation. ",
+	"image":"img/faridkot/blog.png"
+}]

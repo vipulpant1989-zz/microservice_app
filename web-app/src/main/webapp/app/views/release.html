@@ -1,0 +1,76 @@
+<div class="fullwidthbanner-container revolution-slider" >					
+	
+	<div class="fullwidthbanner" >
+		
+
+		<ul>
+			<li ng-repeat="image in release.backgroundImages" 
+				data-transition="fade" data-slotamount="10"> 										
+				<img ng-src="{{image.url}}" />									
+				<div class="caption lft" data-x="800" data-y="50" data-speed="500" data-start="900" data-easing="easeOutExpo">
+					<div id="share-wrap"></div>
+			</li>
+		</ul>		
+		<div class="tp-bannertimer"></div>												
+	</div>					
+</div>
+</section>
+<!-- /page header -->
+<section id="main-content" class="container clearfix" >
+	<!-- left -->
+	<article class="col-1-3">
+		<h2 class="heading-icon deck" >{{release.name}}<br/><span class="color">{{release.artist}}</span></h2>
+		<ul class="details none">
+			<li>
+				<span>Date</span>
+				<div>{{release.date}}</div>
+			</li>
+			<li>
+				<span>Genres</span>
+				<div id="genre"><a href="#">{{release.genre}}</a></div>
+			</li>
+		</ul>
+		<!-- clear fix -->
+		<div class="clear"></div>
+		<!-- single navigation 
+		<div id="single-nav">
+			<a href="#" class="nav-prev"></a>
+			<a href="#" class="nav-next"></a>
+		</div>-->
+		<!-- /single navigation -->
+	</article>
+	<!-- /left -->
+	<!-- right -->
+	<article class="col-2-3 last">
+		<h3>Tracklist.</h3>
+		<music-player audios="release.audio"></music-player>
+		
+		<!--<p class="text-right"><a href="#" class="btn">Buy Entire Release</a></p>-->
+		<div ng-if="release.video !== undefined">
+		<h3>Promo video.</h3>
+		<!-- video -->
+		<div class="video">
+			<youtube src="release.video.url"></youtube>
+		</div>
+		</div>
+		<!-- /video -->
+		<h3>Details.</h3>
+		<p ng-bind-html="release.description | unsafe "></p>
+		<!--h3>The press wrote.</h3>
+		<blockquote>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			<span class="author color">UK Music Mag</span>
+		</blockquote>
+		<blockquote>
+			<p>Pellentesque porttitor fermentum ullamcorper. Aliquam erat volutpat. Nullam purus metus, interdum ac lacinia non, sodales non arcu. In eleifend vestibulum eleifend. Maecenas ut felis mi, vitae pharetra justo.</p>
+			<span class="author color">MIX Mag</span>
+		</blockquote>-->
+	</article>
+	<!-- /right -->
+	<!-- More releases -->
+
+
+	<!-- /releases -->
+</section><!-- footer-top -->
+
+

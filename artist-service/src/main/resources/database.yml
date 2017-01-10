@@ -1,0 +1,10 @@
+database :
+	driverClassName:"com.mysql.jdbc.Driver"
+	host:"localhost"
+	port:"3306"
+	dataBaseName:"bbt_development"
+	username:"root"
+	password:"admin123"
+	hibernateProps :
+		hibernate.hbm2ddl.auto : "create-drop"
+		hibernate.dialect 	   : "org.hibernate.dialect.MySQL5Dialect"

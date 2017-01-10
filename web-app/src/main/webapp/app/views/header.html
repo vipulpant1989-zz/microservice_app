@@ -1,0 +1,42 @@
+<header id="header">
+    <div class="container">
+    	<!-- logo -->
+    	<a ui-sref="app.home" id="logo">
+    	    <img src="img/logo.png" alt="Logo">
+
+    	</a>
+    	<!-- /logo -->
+	<!-- nav -->
+	<nav id="main-nav">
+		<ul>
+			<li ui-sref="app.home" ui-sref-active = "current">
+				<a>Home</a>
+			</li>
+			<li ui-sref="app.artists" ui-sref-active = "current">
+				<a>Artists</a>
+			</li>
+			<li ui-sref="app.releases" ui-sref-active = "current">
+				<a>Releases</a>
+			</li>
+			<li ui-sref="app.team" ui-sref-active = "current">
+				<a>Team</a>
+			</li>
+			<!--<li  ui-sref="app.gallery" ui-sref-active = "current">
+				<a>Gallery</a>
+			</li>-->
+			<li ui-sref="app.blog" ui-sref-active = "current">
+				<a >Blog</a>
+			</li>
+			<li ui-sref="app.contact" ui-sref-active = "current">
+				<a>Contact</a>
+			</li>
+		</ul>
+	</nav>
+	<!-- /nav -->
+    </div>
+    <script type="text/javascript">
+	    
+	    setTimeout(function(){initMobileNav();},500);
+	    
+	</script>
+</header>

@@ -1,0 +1,57 @@
+
+<!-- /header -->
+<!-- page header -->
+<section id="page-header" class="homepage">
+	<div class="container">
+		<hgroup>
+			<h1 class="page-title">Releases</h1>
+			<h2 class="page-subtitle">Listen our Tracks & Projects</h2>
+		</hgroup>
+		<!-- share it -->
+		<div id="share-wrap">
+			<div id="share" data-url="releases.html" data-text="Releases" data-title="share">Share</div>
+		</div>
+		<!-- /share it -->
+		<hr>
+		<!-- cat filter -->
+		<ul id="cat-filter">
+			<li><a data-categories="*">All</a></li>
+			<li><a data-categories="new">New Tracks</a></li>
+			<li ng-repeat="release in releases"><a data-categories="{{release.genre}}">{{release.genre}}</a></li>
+		</ul>
+		<!-- /cat filter -->
+	</div>
+</section>
+<!-- /page header -->
+<section id="main-content" class="container clearfix">
+	<!-- tags filter -->
+	<ul id="tag-filter">
+		<li><a data-tags="*">All Artists</a></li>
+		<li ng-repeat="release in releases"><a data-tags="{{release.artist}}">{{release.artist}}</a></li>
+	</ul>
+	<!-- /tags filter -->
+	<!-- releases -->
+	<section class="content items portfolio" id="releases">
+    	<!-- item -->
+    	<article ng-repeat="release in releases" style="text-align:left;" ng-click="goToRelease(release.userName)" class="col-1-4" 
+    		data-categories="{{release.genre}}" data-tags="{{release.artist}}">
+    		<a class="thumb-slide"><span class="badge"></span><span class="thumbs-wrap">
+			<img ng-src="{{release.label}}" alt="" title=""/>
+			<img src="placeholders/04B-portfolio-thumb-420x420.jpg" alt="" title=""/>
+			</span></a><footer><h2><a>{{release.name}}</a></h2>
+			<div class="cat"><a href="#">{{release.genre}}</a></div><span</footer>
+		</article>
+		
+		<!-- /item -->
+
+	</section>
+	<!-- /releases -->
+</section><!-- footer-top -->
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		// Init filters
+		if ($('#cat-filter').length) _items_filter($('#cat-filter'), 'data-categories');
+		if ($('#tag-filter').length) _items_filter($('#tag-filter'), 'data-tags');
+	});
+</script>

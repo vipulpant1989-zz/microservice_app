@@ -1,0 +1,112 @@
+[{
+	"id":2,
+	"name" :"Swastik",
+	"bandId":2,
+	"audio":[{
+			"id":1,
+			"name":"Kuch Bhi Karlo",
+			"url":"/audio/swastik/KuchBhiKarlo.mp3"
+		},{
+			"id":2,
+			"name":"Andhere Sheher Meh",
+			"url":"/audio/swastik/AndhereSheherMe.mp3"
+		},{
+			"id":3,
+			"name":"Jogi",
+			"url":"/audio/swastik/Jogi.mp3"
+		}
+	]
+},{
+	"id":3,
+	"name" :"Folk Foundation",
+	"bandId":3,
+	"audio":[{
+			"id":4,
+			"name":"de de paal tule de",
+			"url":"/audio/folkfoundation/dedepaaltulede.mp3"
+		},{
+			"id":5,
+			"name":"luma jhuma",
+			"url":"/audio/folkfoundation/lumajhuma.mp3"
+		},{
+			"id":6,
+			"name":"Shyam Kanu",
+			"url":"/audio/folkfoundation/shyamkanu.mp3"
+		}
+	]
+},{
+	"id":4,
+	"name" :"Leaf tone",
+	"bandId":4,
+	"audio":[{
+			"id":7,
+			"name":"Leaftone-Track1",
+			"url":"/audio/leaftone/Leaftone-Track1.mp3"
+		},{
+			"id":8,
+			"name":"Gangster of love",
+			"url":"/audio/leaftone/gangster-of-love.mp3"
+		},{
+			"id":9,
+			"name":"Who's your daddy.mp3",
+			"url":"/audio/leaftone/who-s-your-daddy.mp3"
+		}
+	]
+},{
+	"id":5,
+	"name" :"Sushmit Sen Chronicals",
+	"bandId":5,
+	"audio":[{
+			"id":10,
+			"name":"Bongingon",
+			"url":"/audio/sushmitsen/Bongingon.m4a"
+		},{
+			"id":11,
+			"name":"Serendipity",
+			"url":"/audio/sushmitsen/Serendipity.m4a"
+		},{
+			"id":12,
+			"name":"Uprising",
+			"url":"/audio/sushmitsen/Uprising.m4a"
+		}
+	]
+},{
+	"id":6,
+	"name" :"Azeem Ahmed Alvi",
+	"bandId":6,
+	"audio":[{
+		"id":13,
+		"name":"Sitar Magic - Azeem Ahmed Alvi",
+		"url":"/audio/azeem/sitar.mp3"
+	}]
+},{
+	"id":7,
+	"name" :"Jasleen Aulakh",
+	"bandId":7,
+	"audio":[{
+		"id":14,
+		"name":"Chidiya",
+		"url":"/audio/jasleen/Chidiya.mp3"
+	},{
+		"id":15,
+		"name":"Paisa Paisa",
+		"url":"/audio/jasleen/PaisaPaisa.mp3"
+	},{
+		"id":16,
+		"name":"Shadow",
+		"url":"/audio/jasleen/Shadow.mp3"
+	}]
+},{
+	"id":8,
+	"name":"Gurraj Singh",
+	"bandId":9,
+	"audio":[{
+		"id":17,
+		"name":"Aashke",
+		"url":"/audio/gurraj/Aashke.mp3"
+	},{
+		"id":18,
+		"name":"PattLayi",
+		"url":"/audio/gurraj/PattLayi.mp3"
+	}]
+}]

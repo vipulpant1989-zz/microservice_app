@@ -1,0 +1,14 @@
+<ol class="playlist">
+	<li ng-repeat="audio in audios track by $index">
+		<div class="tracks" ng-class="{paused:!isPlaying}" data-url="{{audio.url}}">{{audio.name}}
+			<span class="ui timing" ng-show = "showTimer">
+				<span class="elapsed">{{elapsed}}</span>
+				<span class="total">/{{total}}</span>
+			</span>
+			<span class="ui progress" ng-show = "showTimer">   					
+				<span class="loading" style="width: 100%;"></span>
+				<span class="position" ng-style="{width : ( progress + '%' ) }"></span> 
+			</span>
+		</div>
+	</li>
+</ol>

@@ -1,0 +1,113 @@
+<div class="fullwidthbanner-container revolution-slider">					
+	<div class="fullwidthbanner">
+		<ul>
+			<li data-transition="fade" data-slotamount="8"> 										
+				<img src="img/tbbt/coverImage.jpg" />							
+				<div class="caption lfb" data-x="350" data-y="80" data-speed="2000" data-start="900" data-easing="easeOutExpo">
+				<!--<img src="placeholders/revolution-slider/03-dj.png" />--></div>
+				<div class="caption lfb" data-x="350" data-y="80" data-speed="2000" data-start="900" data-easing="easeOutExpo">
+				<!--<img src="placeholders/revolution-slider/03-dj.png" />--></div>
+				<div style = "background:transparent;" class="caption lft very_big_white" data-x="0" data-y="140" data-speed="900" data-start="2200" data-easing="easeOutExpo"><span class="color"> Big Band Theory.</span></div>
+				<div style="font-weight:normal;" class="caption lfl big_orange" data-x="0" data-y="240" data-speed="600" data-start="1900" data-easing="easeOutExpo"><span class="color">The Theory is not about just providing a platform <br/>It's about <strong>CREATING</strong> one.</span></div>
+				<div class="caption lfl medium_text" data-x="40" data-y="380" data-speed="400" data-start="2400" data-easing="easeOutExpo">+ Artist Management</div>
+				<div class="caption lfl medium_text" data-x="40" data-y="410" data-speed="400" data-start="2800" data-easing="easeOutExpo">+ Creating Music Properties</div>
+				<div class="caption lfl medium_text" data-x="40" data-y="440" data-speed="400" data-start="3200" data-easing="easeOutExpo">+ Artist Curation</div>
+				<div class="caption lfl medium_text" data-x="40" data-y="470" data-speed="400" data-start="3600" data-easing="easeOutExpo">+ Music Consultancy</div>
+				
+			</li>
+			<!--<li data-transition="boxslide" data-slotamount="8"> 										
+				<img src="placeholders/revolution-slider/02-bg.jpg" />									
+				<div class="caption lfl" data-x="200" data-y="310" data-speed="900" data-start="900" data-easing="easeOutExpo"><img src="placeholders/revolution-slider/02-vinyl.png" /></div>
+				<div class="caption lfl" data-x="30" data-y="300" data-speed="900" data-start="900" data-easing="easeOutExpo"><img src="placeholders/revolution-slider/02-cover.png" /></div>
+				<div class="caption lft very_big_white" data-x="0" data-y="100" data-speed="400" data-start="2000" data-easing="easeOutExpo">Lazarus by <span class="color">DJ Envato.</span></div>
+				<div class="caption lfb big_orange" data-x="0" data-y="190" data-speed="400" data-start="2300" data-easing="easeOutExpo"><span style="font-weight:normal;">New awesome 
+				<strong>dubstep</strong> album.</span></div>
+			</li>-->
+			<li data-transition="fade" data-slotamount="10"> 										
+				<img src="img/iceburgproject/IcebergPoster.jpg" />									
+				<div class="caption lft" data-x="100" data-y="50" data-speed="500" data-start="900" data-easing="easeOutExpo">
+				<!--<img src="placeholders/revolution-slider/01-envato.png" />--></div>
+                <!--<div class="caption lfl" data-x="400" data-y="80" data-speed="900" data-start="900" data-easing="easeOutExpo"><img src="placeholders/revolution-slider/01-dj.png" /></div>
+				<div class="caption lft very_big_white" data-x="0" data-y="250" data-speed="400" data-start="1700" data-easing="easeOutExpo">Meet <span class="color">Shushmit Sen Cronicals.</span></div>
+				<div class="caption lfb big_orange" data-x="0" data-y="340" data-speed="400" data-start="1900" data-easing="easeOutExpo"><span style="font-weight:normal;">The</span><strong> Ice Burg Project.</strong></div>-->
+				<div ng-click="goToRelease('SusmitSen');" class="caption lfb" data-x="500" data-y="450" data-speed="500" data-start="2000" data-easing="easeOutExpo"><a href="#" class="btn large">View releases</a></div>
+			</li>
+			
+		</ul>		
+		<div class="tp-bannertimer"></div>												
+	</div>					
+</div>
+
+<!-- /full player -->
+<section id="main-content" class="container clearfix">
+	<!-- recent works -->
+	<section class="content items portfolio recent-works">
+    	<!-- item -->
+    	<!-- item -->
+		<article class="col-1-4">
+			<h2 class="heading-icon deck">Recent <span class="color">Artists</span></h2>
+			<p>
+				Some of the latest artist in our community. 
+				<a ui-sref="app.artists" class="text-button">View All</a>
+			</p>
+		</article>
+		<!-- /item -->
+		<!-- item -->
+		<article class="col-1-4 clearfix"  ng-repeat="band in bands | limitTo:'3'">
+			<a ng-click="goToArtist(band.name)" class="thumb-slide">
+				<span class="thumbs-wrap">
+					<img ng-src="{{band.lableImage}}" alt="" title="" />
+					<img src="placeholders/01B-portfolio-thumb-420x420.jpg" alt="" title="" />
+				</span>
+			</a>
+			<footer>
+				<h2><a ng-click="goToArtist(band.name)">{{band.name}}</a></h2>
+				<div class="cat">{{band.genre}}</div>
+			</footer>
+		</article>
+		<!-- /item -->
+		<!-- /item -->
+	</section>
+	<div class="clear"></div>
+	<!-- /recent-works -->
+	<!-- boxes -->
+	<section class="boxes">
+		<!-- box -->
+		<article class="box col-2-3">
+			<h2>How <span class="color">Big Band Theory</span> Works</h2>
+			<p>The Big Band Theory started with the novel idea of doing service to
+				the Indian Music Circuit and contributing to it by blending the
+				different music trends existing in the country.</p>
+				<!--<a href="#" class="text-button">More About Us</a>-->
+			</p>
+			<img src="img/tbbt/aboutus.gif" alt="About Big Band Theory" class="aligncenter">
+		</article>
+		<!-- /box -->
+		<!-- box -->
+		<div class="box col-1-3 last">
+			<!--<div class="widget">
+				<h3>Latest <span class="color">News.</span></h3>
+				<ul class="recent-entries">
+					<li><span class="date">23/11/12</span> <a href="#">Pellentesque elit leo, accumsan sed consectetur.</a> </li>
+					<li><span class="date">02/11/12</span> <a href="#">Aliquam eu magna vel metus ultrices ornare in.</a> </li>
+					<li><span class="date">30/10/12</span> <a href="#">Suspendisse posuere blandit tortor sit.</a> </li>
+					<li><span class="date">23/09/12</span> <a href="#">Quisque porta sodales orci.</a> </li>
+					<li><span class="date">07/05/12</span> <a href="#">Mauris est nisi, consequat vitae.</a> </li>
+				</ul>
+			</div>
+			<!-- Twitter feed widget -->
+			<div class="widget">
+				<h3 class="widget-title">Twitter feed</h3>
+				<!-- twitter feed -->
+				<!--<ul class="tweets" data-tweets-count="2">
+					<li>Oops, our Twitter feed is unavailable at the moment - <a href="#">Follow us on Twitter!</a></li>
+				</ul>-->
+				<a class="twitter-timeline" href="https://twitter.com/bbt85" data-widget-id="663262742233518080">Tweets by @bbt85</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+				<!-- /twitter feed  -->
+			</div>
+		</div>
+		<!-- /box -->
+	</section>
+	<!-- /boxes -->
+	
