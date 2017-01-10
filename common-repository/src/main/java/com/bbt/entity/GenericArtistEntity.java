@@ -1,5 +1,6 @@
 package com.bbt.entity;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +9,12 @@ import javax.persistence.ElementCollection;
 import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
-public class GenericArtistEntity extends GenericEntity {
+public class GenericArtistEntity extends GenericEntity implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	public GenericArtistEntity() {
 	}

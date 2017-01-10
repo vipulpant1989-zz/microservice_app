@@ -36,7 +36,6 @@ public class DbConfiguration {
 		LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
 		em.setDataSource(dataSource());
 		em.setPackagesToScan(new String[] { "com.bbt.entity" });
-
 		JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
 		em.setJpaVendorAdapter(vendorAdapter);
 		em.setJpaProperties(additionalProperties());
@@ -46,8 +45,6 @@ public class DbConfiguration {
 
 	@Bean
 	public DataSource dataSource() {
-		LOG.debug("DB CONFIG START ----------- "
-				+ dbConfig.getDriverClassName());
 		String template = urlTemplate;
 		template = template.replace("$host", dbConfig.getHost());
 		template = template.replace("$port", dbConfig.getPort());

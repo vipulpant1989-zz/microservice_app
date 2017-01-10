@@ -4,10 +4,10 @@
 *.project
 *.settings
 *.classpath
-*.springBeans
 *.mp3
 *.mp4
 *.m4a
+/*/*.springBeans
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/

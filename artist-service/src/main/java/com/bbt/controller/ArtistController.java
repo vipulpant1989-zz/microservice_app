@@ -10,10 +10,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.bbt.dao.IArtistRepository;
 import com.bbt.entity.Artist;
-import com.bbt.repository.ArtistRepository;
 import com.bbt.types.ResponseTO;
 
 @RestController
@@ -21,7 +22,7 @@ import com.bbt.types.ResponseTO;
 public class ArtistController {
 
 	@Autowired
-	ArtistRepository artistRepository;
+	IArtistRepository artistRepository;
 
 	@RequestMapping(method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public List<Artist> getAll() {
@@ -39,8 +40,8 @@ public class ArtistController {
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<ResponseTO<Artist>> getOne(@PathVariable long id) {
-		ResponseTO<Artist> response = new ResponseTO<>(
-				artistRepository.findOne(id), null);
+		ResponseTO<Artist> response = new ResponseTO<Artist>(
+				artistRepository.getOne(id), null);
 		ResponseEntity<ResponseTO<Artist>> reponseEntity = new ResponseEntity<>(
 				response, HttpStatus.OK);
 		return reponseEntity;
@@ -53,6 +54,14 @@ public class ArtistController {
 		ResponseEntity<ResponseTO<Boolean>> reponseEntity = new ResponseEntity<>(
 				response, HttpStatus.OK);
 		return reponseEntity;
+	}
+
+	@RequestMapping(method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<ResponseTO<Artist>> getByName(
+			@RequestParam(value = "name") String name) {
+		Artist artist = artistRepository.findByName(name);
+		ResponseTO<Artist> response = new ResponseTO<Artist>(artist, null);
+		return new ResponseEntity<ResponseTO<Artist>>(response, HttpStatus.OK);
 	}
 
 }
